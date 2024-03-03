@@ -5,6 +5,7 @@ import InfoBoxRow from "@/components/ui/InfoBoxRow";
 import MiniSearchRow from "@/components/ui/MiniSearchRow";
 import ProductCard from "@/components/ui/ProductCard";
 import NearByCities from "@/components/ui/NearByCities";
+import {Footer} from "@/components/ui/footer";
 const FavoriteBuildings = [
   {
     image: "thumb-1.png",
@@ -293,6 +294,7 @@ function StoreHomePg() {
           })}
         </div>
       </MiniSearchRow>
+      <Footer />
     </div>
   );
 }

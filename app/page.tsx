@@ -1,3 +1,4 @@
+import { Footer } from "@/components/ui/footer";
 import Image from "next/image";
 // import Icon from '@/app/components/Icon'
 export default function Home() {
@@ -9,9 +10,7 @@ export default function Home() {
           <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
             <div className="flex flex-col max-md:ml-0 max-md:w-full">
               <img
-                loading="lazy"
-                srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/a38ac4e9778123ba5b9c96e29d61f4c77c6039dbb79ea0548cba8a533da78fe8?apiKey=e288177870584f19969717bd4cd663f8&"
-                
+               src="../" 
               />
             </div>
             <div className="flex flex-col ml-5 w-[69%] max-md:ml-0 max-md:w-full">
@@ -385,6 +384,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }
