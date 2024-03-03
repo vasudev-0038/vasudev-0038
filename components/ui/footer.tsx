@@ -13,14 +13,14 @@ export const Footer=() =>{
       <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md: items-start mb-24">
     <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
         <div className="flex grow items-center  w-full rounded-lg">
-            <div className="text-2xl font-semibold tracking-tight leading-7 text-pink-800 uppercase mr-8">
+            <div className="text-2xl font-semibold tracking-tight leading-7 text-pink-800 uppercase mr-6">
             <img src="./images/keyeslogosvg.png"/>
             </div>
 
-            <div className=" bg-white w-[1px] h-16">
+            <div className=" bg-white w-[1px] h-[55px]">
         
             </div>
-            <div className="text-2xl font-semibold tracking-tight leading-7 text-pink-800 uppercase ml-8">
+            <div className="text-2xl font-semibold tracking-tight leading-7 text-pink-800 uppercase ml-6">
             <img src="../../images/span.font-montserrat.png"/>
             </div>
             </div>
